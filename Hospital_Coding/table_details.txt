@@ -1,0 +1,78 @@
+create table patient_detail
+(
+pid varchar2(12),
+fname varchar2(12),
+lname varchar2(12),
+age number(5),
+sex varchar2(8),
+address varchar2(15),
+state varchar2(12),
+pin number(6),
+ph char(10),
+dob date
+);
+create table doctor_detail
+(
+did varchar2(12),
+name varchar2(12),
+spec varchar2(12),
+qual varchar2(12),
+exp number(5),
+mobno varchar2(12)
+);
+create table dept_detail
+(
+deptid varchar2(12),
+dname varchar2(12),
+hod varchar2(12),
+since date,
+ph varchar2(12)
+);
+create table emp_detail
+(
+eid varchar2(10),
+ename varchar2(12),
+post varchar2(10),
+salary number(6),
+age number(5),
+sex varchar2(12),
+address varchar2(15),
+state varchar2(12),
+pin number(6),
+ph varchar2(12)
+);
+create table test_detail
+(
+test_name varchar2(12),
+criteria varchar2(12),
+charge number(6),
+sample varchar2(12)
+);
+create table bed_detail
+(
+bno number(5),
+rno number(5),
+bed varchar2(12),
+type varchar2(12),
+status varchar2(12),
+vb varchar2(12)
+);
+
+create table bill_detail
+(
+bno varchar2(12),
+pid varchar2(12),
+mchrg number(5),
+wchrg number(5),
+ochrg number(5),
+total number(5),
+dues number(5),
+pdate date,
+pmode varchar2(12)
+);
+
+
+
+
+
+
