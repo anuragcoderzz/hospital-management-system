@@ -30,4 +30,4 @@ This is my BCA final year project, a desktop application for managing hospital o
 ## Note
 This project uses older tech (Java 1.6, Oracle 10g). I’m learning modern tools like Java 17 and MySQL for future projects.
 
-**Developed by Anurag Ranjan, BCA 2021**
+**Developed by Anurag Ranjan, BCA 2022**
